@@ -6,45 +6,32 @@
 ### 📝 Description
 tôi vô tình viết flag may là tôi đã xóa nó.
 
-> Link: https://play.picoctf.org/practice/challenge/411?category=5&page=1
+> Link: https://play.picoctf.org/practice/challenge/471?category=5&page=1
 
 ## 🧠 Chiến lược giải
-- kiểm tra các thay đổi trong lịch sử commit để tìm flag
+- Dùng lệnh `nc` (netcat) để kết nối đến máy chủ được chỉ định.
+- Làm theo chỉ dẫn trong game text-based để giải đố, điều hướng và tìm flag.
 
 ### 🛠️ Cách giải
 
-1. Tải file chanllenge.zip
-2. Dùng lệnh giải nén file.
+1. chạy lệnh sau để kết nối với chương trình:
 
 ```
-unzip challenge.zip
+nc verbal-sleep.picoctf.net 57327
 ```
+-> nc <host> <port>
+-> ctrl + C để thoát
 
-3. kiểm tra các commit 
-
-```
-git log
-```
--> liệt kê các commit
-```
-cd drop-in
-```
--> chuyển tới thư mục vừa giải nén ra
-
-4. kiểm tra các commit tìm file mà họ đã lỡ xóa nhưng git vẫn lưu
-```
-git checkout ...
-```
--> kiểm tra và tìm ra flag
+2. làm theo hướng dẫn để tìm flag
+   
 
 ### 🏁 Flag
--> flag nằm ở file message.txt mà người dùng đã lỡ xóa
 ```
-picoCTF{s@n1t1z3_c785c319}
+picoCTF{m1113n1um_3d1710n_5e40d7b5}
 ```
 
 ---
 
 ## 📚 Tổng Kết
-- làm quen với git để xem lại lịch sử commit
-- tìm lại các thông tin đã bị thay đổi hoặc bị xóa
+- netcat(nc) là công cụ phổ biến trong ctf để giao tiếp với chương trình từ xa thông qua cổng mạng.
+- làm quen với terminal
