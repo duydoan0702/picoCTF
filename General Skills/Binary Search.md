@@ -6,7 +6,10 @@
 ### 📝 Description
 use algorithm binary search to quickly find the flag ? you have 1000 possibilities and only 10 guesses.
 
-> Link: https://play.picoctf.org/practice/challenge/442?category=5&page=1  
+> Link: https://play.picoctf.org/practice/challenge/442?category=5&page=1
+
+## 🧠 Chiến lược giải
+- hiểu và dùng thuật toán binary search để tìm ra flag
 
 ### 🛠️ Cách giải
 
