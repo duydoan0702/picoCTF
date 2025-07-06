@@ -6,7 +6,10 @@
 ### 📝 Description
 một nhóm đã code một chức năng mới cho chương trình print flag. Hãy tìm hiểu họ làm việc như thế nào?
 
-> Link: https://play.picoctf.org/practice/challenge/410?category=5&page=1  
+> Link: https://play.picoctf.org/practice/challenge/410?category=5&page=1
+
+## 🧠 Chiến lược giải
+- kiểm tra các nhánh mà họ đã làm việc với chức năng trên để tìm ra flag
 
 ### 🛠️ Cách giải
 
