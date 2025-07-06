@@ -44,11 +44,13 @@ int binarySearch(int arr[], int size, int target){
 ### 🏁 Flag
 
 ```
-picoCTF{meow_welcome_to_ctf}
+picoCTF{g00d_gu355_6dcfb67c}
 ```
 
 ---
 
 ## ✅ Ghi chú thêm
 
-- 
+- **Binary Search** là thuật toán tìm kiếm trên mảng **đã sắp xếp**.
+- Binary Search chia mảng làm đôi sau mỗi lần tìm kiếm
+- Độ phức tạp thuật toán : **O(log n)**
