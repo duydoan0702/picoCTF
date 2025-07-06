@@ -49,7 +49,7 @@ picoCTF{g00d_gu355_6dcfb67c}
 
 ---
 
-## ✅ Ghi chú thêm
+## 📚 Tổng Kết
 
 - **Binary Search** là thuật toán tìm kiếm trên mảng **đã sắp xếp**.
 - Binary Search chia mảng làm đôi sau mỗi lần tìm kiếm
