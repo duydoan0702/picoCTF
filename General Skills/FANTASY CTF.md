@@ -19,7 +19,8 @@ tôi vô tình viết flag may là tôi đã xóa nó.
 ```
 nc verbal-sleep.picoctf.net 57327
 ```
--> nc <host> <port>
+-> `nc <host> <port>`
+
 -> ctrl + C để thoát
 
 2. làm theo hướng dẫn để tìm flag
