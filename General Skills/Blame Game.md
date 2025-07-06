@@ -6,7 +6,10 @@
 ### 📝 Description
 tìm ai là người commit code trên git đã làm cho đoạn code tạm dừng
 
-> Link: https://play.picoctf.org/practice/challenge/405?category=5&page=1  
+> Link: https://play.picoctf.org/practice/challenge/405?category=5&page=1
+
+## 🧠 Chiến lược giải
+- kiểm tra các commit và tìm ra người đã làm cho việc code bị lỗi
 
 ### 🛠️ Cách giải
 
