@@ -20,30 +20,31 @@ tôi vô tình viết flag may là tôi đã xóa nó.
 unzip challenge.zip
 ```
 
-3. sau đó dùng lệnh để xem các file đã giải nén
+3. kiểm tra các commit 
 
 ```
-ls
+git log
 ```
--> liệt kê các file đã giải nén
+-> liệt kê các commit
 ```
 cd drop-in
 ```
 -> chuyển tới thư mục vừa giải nén ra
 
-4. dùng lệnh để xem ai là người commit lên git làm ngừng code
+4. kiểm tra các commit tìm file mà họ đã lỡ xóa nhưng git vẫn lưu
 ```
-git log message.py
+git checkout ...
 ```
--> xem lịch sử commit đối với file message.py
+-> kiểm tra và tìm ra flag
 
 ### 🏁 Flag
--> flag nằm ở author 
+-> flag nằm ở file message.txt mà người dùng đã lỡ xóa
 ```
-picoCTF{@ak_th3_1nt3rn_b64c4705}
+picoCTF{s@n1t1z3_c785c319}
 ```
 
 ---
 
 ## 📚 Tổng Kết
-- làm quen với **git log** câu lệnh để kiểm tra lịch sử commit
+- làm quen với git để xem lại lịch sử commit
+- tìm lại các thông tin đã bị thay đổi hoặc bị xóa
