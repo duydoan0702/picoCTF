@@ -27,6 +27,7 @@ unzip challenge.zip
 ![image](https://github.com/user-attachments/assets/dc58a442-3e6c-4e80-abe8-4cb52305cb3c)
 
 -> khai báo `mut` cho biến cần thay đổi
+
 -> truyền tham chiều `&mut` và biến tham chiếu muốn thay dổi giá trị
 
 3. run code bằng câu lệnh `cargo run` và thấy flag
