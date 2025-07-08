@@ -28,6 +28,7 @@ brbgk
 
 3. chuyển đổi và nhận flag:
    -> **little edian** : `6b67627262`
+   
    -> **big edian** : `626762676b`
 
 ### 🏁 Flag
