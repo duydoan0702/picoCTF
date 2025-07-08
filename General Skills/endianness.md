@@ -1,25 +1,25 @@
 
 # General Skills
 
-## 🧩 Challenge: Time Machine
+## 🧩 Challenge: endianness
 
 ### 📝 Description
-lần cuối tôi làm việc gì ? tôi nhớ đã note lại để giúp tôi nhớ lại
+bạn có biết về little và big endian ?
 
-> Link: https://play.picoctf.org/practice/challenge/425?category=5&page=1
+> Link: https://play.picoctf.org/practice/challenge/414?category=5&page=1
 
 ## 🧠 Chiến lược giải
-- kiểm tra lịch sử commit để tìm note.
+- tìm hiểu về little và big endian để giải.
 
 ### 🛠️ Cách giải
 
-1. tải file về rồi giải nén bằng lệnh sau:
+1. kết nối với server qua câu lệnh sau:
 
 ```
-unzip challenge.zip
+nc titan.picoctf.net 60831
 ```
-
-2. kiểm tra lịch sử commit và tìm flag:
+-> dùng titan kết nối tới server
+2. chuyển chuỗi dữ liệu thành
 ```
 git log
 ```
@@ -33,4 +33,4 @@ picoCTF{t1m3m@ch1n3_b476ca06}
 ---
 
 ## 📚 Tổng Kết
-- lịch sử commit có thể lưu lại quá trình làm việc và có thể tìm lại các file bị xóa các thay đổi trong quá trình làm việc.
+- Endian mô tả thứ tự sắp xếp các byte trong một giá trị nhiều byte (thường là 2, 4, 8 byte).
