@@ -1,38 +1,36 @@
 
 # General Skills
 
-## 🧩 Challenge: FANTASY CTF
+## 🧩 Challenge: Time Machine
 
 ### 📝 Description
-tôi vô tình viết flag may là tôi đã xóa nó.
+lần cuối tôi làm việc gì ? tôi nhớ đã note lại để giúp tôi nhớ lại
 
-> Link: https://play.picoctf.org/practice/challenge/471?category=5&page=1
+> Link: https://play.picoctf.org/practice/challenge/425?category=5&page=1
 
 ## 🧠 Chiến lược giải
-- Dùng lệnh `nc` (netcat) để kết nối đến máy chủ được chỉ định.
-- Làm theo chỉ dẫn trong game text-based để giải đố, điều hướng và tìm flag.
+- kiểm tra lịch sử commit để tìm note.
 
 ### 🛠️ Cách giải
 
-1. chạy lệnh sau để kết nối với chương trình:
+1. tải file về rồi giải nén bằng lệnh sau:
 
 ```
-nc verbal-sleep.picoctf.net 57327
+unzip challenge.zip
 ```
--> `nc <host> <port>`
 
--> ctrl + C để thoát
-
-2. làm theo hướng dẫn để tìm flag
-   
+2. kiểm tra lịch sử commit và tìm flag:
+```
+git log
+```
+-> hiện commit history 
 
 ### 🏁 Flag
 ```
-picoCTF{m1113n1um_3d1710n_5e40d7b5}
+picoCTF{t1m3m@ch1n3_b476ca06}
 ```
 
 ---
 
 ## 📚 Tổng Kết
-- netcat(nc) là công cụ phổ biến trong ctf để giao tiếp với chương trình từ xa thông qua cổng mạng.
-- làm quen với terminal
+- lịch sử commit có thể lưu lại quá trình làm việc và có thể tìm lại các file bị xóa các thay đổi trong quá trình làm việc.
