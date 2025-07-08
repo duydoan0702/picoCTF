@@ -37,7 +37,7 @@ nc titan.picoctf.net 49191
 
 -> kết quả : `00000100`
 
-**3. thực hiện phép `OR` nhị phân (`|`) **
+**3. thực hiện phép `OR` nhị phân (`|`)**
    
 ![image](https://github.com/user-attachments/assets/4bb72430-5399-4ad8-b113-0bdb26574ec4)
 
