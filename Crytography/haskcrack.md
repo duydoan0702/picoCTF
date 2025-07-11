@@ -22,7 +22,7 @@ Một công ty đã lưu một thông điệp bí mật trên máy chủ và th�
 nc verbal-sleep.picoctf.net 57192
 ```
 
-2. Sử dụng trang web sau để kiểm tra `type` và `result` của `hash`
+2. Sử dụng trang web sau để kiểm tra `type` và `result` của `hash` sẽ lấy được flag
 
 > Link: https://crackstation.net/
 
@@ -32,16 +32,23 @@ nc verbal-sleep.picoctf.net 57192
 
 -> `md5` là một thuật toán băm mã hóa 1 chiều, nó nhận vào một chuỗi dự liệu bất kì và tạo ra một chuỗi hash cố định là **128bit ( 32 ký tự hex )**
 
+| **Hash** | **Type** | **Resule** |
+|:--------:|:---------:|:---------:|
+|b7a875fc1ea228b9061041b7cec4bd3c52ab3ce3| sha1 | letmein |
+
+-> `SHA-1` là một thuật toán băm mã hóa 1 chiều, nó nhận vào một chuỗi bất kì và xuất ra một chuỗi hash có độ dài cố dịnh là **160 bit (40 ký tự hex)**
+
+| **Hash** | **Type** | **Resule** |
+|:--------:|:---------:|:---------:|
+|916e8c4f79b25028c9e467f1eb8eee6d6bbdff965f9928310ad30a8d88697745| sha256 | qwerty098 |
+
+-> `SHA-256` là một thuật toán băm mã hóa 1 chiều thuộc họ `SHA-2` nhận vào một chuỗi ký tự bất kì và xuất ra chuỗi hash cố định với độ dài **256 bit (64 ký tự hex)**
 
 
-
-
-
-   
 
 ### 🏁 Flag
 ```
-picoCTF{t1m3m@ch1n3_b476ca06}
+picoCTF{UseStr0nG_h@shEs_&PaSswDs!_29028be8}
 ```
 
 ---
