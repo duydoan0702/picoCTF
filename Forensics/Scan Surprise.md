@@ -13,6 +13,13 @@ Tôi chán việc phát cờ dưới dạng chữ rồi.Sẽ tuyệt hơn nếu 
 
 - giải nén và tìm file .png sau đó tìm công cụ để giải mã QR đó.
 
+## 🔧 Công cụ
+1. **Zbarimg**
+- công cụ dùng để phát hiện mà giải mã **OR code, barcode, và các mã khác từ file ảnh.**
+- câu lệnh:
+```
+zbarimg filename
+```
 ## 🛠️ Cách giải
 
 1. tìm file `flag.png`
